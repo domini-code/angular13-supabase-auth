@@ -1,3 +1,7 @@
 export const environment = {
-  production: true
+  production: true,
+  supabase: {
+    publicKey: 'XXXXXXXX',
+    url: 'https://your-url.supabase.co'
+  }
 };
